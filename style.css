@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 86px;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-item:hover{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+
+}
+
+.title{
+    color: white;
+    font-size: 80px;
+    width: 1100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 146px;
+
+    font-weight: 900;
+
+}
+
+.subtitle{
+    color: white;
+    font-size: 56px;
+    font-weight: 900px;
+    text-align: center;
+    line-height: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 514px;
+    margin-top: 88px;
+
+
+}
+
+.input{
+    width: 447px;
+    height: 64px;
+    font-size: 24px;
+    outline: none;
+    border: 4px #8D8D8D solid;
+    border-radius: 20px;
+    padding-left: 23px;
+}
+
+.forma{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.btn{
+    color: #fff;
+    background-color: #5B89CE;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700px;
+
+    border: 2px #476443 solid;
+    border-radius: 25px;
+    width: 261px;
+
+}
+
+.btn:hover{
+    background-color: #2e6688;
+}
+
+.button{
+    text-align: center;
+    margin-top: 32px;
+}
+
+@media(max-width: 1100px){
+    .title{
+        font-size: 50px;
+        width: auto;
+    }
+}
+
+@media(max-width: 850px){
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .nav-item{
+        display: block;
+        margin-right: 0;
+    }
+
+}
